@@ -1,0 +1,17 @@
+{
+  "name": "playwright_migration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:E1": "set ENV=E1&&npx playwright test",
+    "test:E2": "set ENV=E2&&npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2"
+  }
+}
